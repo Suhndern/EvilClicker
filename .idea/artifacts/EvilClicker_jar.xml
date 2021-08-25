@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact name="EvilClicker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EvilClicker_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EvilClicker.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="EvilClicker" />
+      </element>
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:linux:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:linux:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:linux:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:16" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:linux:16" />
+    </root>
+  </artifact>
+</component>

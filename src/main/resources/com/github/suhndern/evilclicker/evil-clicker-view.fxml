@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.suhndern.evilclicker.EvilClickerController">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="cookieCounterLabel" />
+    <Button fx:id="cookieButton" onAction="#onCookieButtonClick" prefHeight="91.0" prefWidth="112.0" text="🍪">
+      <font>
+         <Font size="48.0" />
+      </font></Button>
+   <VBox alignment="BOTTOM_RIGHT" prefHeight="200.0" prefWidth="100.0">
+      <children>
+         <Hyperlink fx:id="gitHubSocialHyperlink" cursor="$null" focusTraversable="false" onAction="#onGitHubSocialHyperlinkClick" />
+      </children>
+   </VBox>
+</VBox>

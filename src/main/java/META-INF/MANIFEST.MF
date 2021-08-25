@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: com.github.suhndern.evilclicker.EvilClickerApplication
+Class-Path: javafx-graphics-16-linux.jar javafx-base-16.jar javafx-contr
+ ols-16-linux.jar javafx-controls-16.jar javafx-base-16-linux.jar javafx
+ -fxml-16.jar javafx-graphics-16.jar javafx-fxml-16-linux.jar
+
